@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll the Dice</title>
+    <link rel="stylesheet" href="rtd.css">
+    <script src="rtd.js" defer></script>
+</head>
+<body>
+    <div id="main-container">
+        <h1>Let's Roll the Dice</h1>
+        <div class="dice">
+            <p id="player1">Player 1</p>
+            <img src="dice6.png" class="img1">
+        </div>
+        <div class="dice">
+            <p id="player2">Player 2</p>
+            <img src="dice6.png" class="img2">
+        </div>
+        <!-- Dice Button -->
+    <div id="bottom-container">
+        <button id="dice-btn" onclick="rollthedice()">Roll the Dice</button>
+        <!-- To Edit Player Names -->
+        <button id="edit-btn" onclick="edit_names()">Edit Names</button>
+        <!--To Reset -->
+        <button id="reset" onclick="reset()">Reset</button>
+    </div>
+    <!-- Result Display -->
+    <div id="result"></div>
+    </div>
+    
+</body>
+</html>
